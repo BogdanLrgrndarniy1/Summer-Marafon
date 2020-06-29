@@ -1,0 +1,128 @@
+
+.background{
+  background: url("img/background.jpg") no-repeat 50%;
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+.page-header {
+  margin: 0;
+  padding: 40px 0;
+}
+
+
+.page-header a
+ {
+  position: relative;
+  margin-right: 64px;
+  padding-top: 9px;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  color: inherit;
+  color: aliceblue;
+  padding-left: 50%;
+}
+
+@media screen and (min-width: 601px) {
+  div.page-header{
+    font-size: 25px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.page-header{
+    font-size: 15px;
+  }
+}
+
+
+
+.header-title{
+ padding-left: 9%;
+}
+
+h1{
+  color: goldenrod;
+}
+
+@media screen and (min-width: 601px) {
+  div.adaptation {
+    font-size: 25px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.adaptation{
+    font-size: 15px;
+  }
+}
+
+
+.descriptions{
+  max-width: 50%;
+  padding-left: 10%;
+  color: white;
+  background: rgba(39, 39, 39, 0.4);
+  text-align: center;
+  margin-left: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.title-thirty{
+  text-align: center;
+  color: aquamarine;
+}
+
+@media screen and (min-width: 601px) {
+  div.adaptation-one {
+    font-size: 60px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.adaptation-one{
+    font-size: 30px;
+  }
+}
+
+.day-one{
+color: brown;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+}
+
+@media screen and (min-width: 601px) {
+  section.day-one {
+    font-size: 40px;
+    
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  section.day-one{
+    font-size: 20px;
+  }
+}
+
+.day-open{
+  color: aquamarine;
+ border-style: solid;
+ width: 150px;
+ height: 60px;
+ box-sizing: border-box;
+ border: 1px solid white;
+ cursor: pointer;
+ transition: opacity 0.2s;
+margin-left: 44%;
+}
